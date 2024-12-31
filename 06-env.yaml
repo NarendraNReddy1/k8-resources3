@@ -1,3 +1,17 @@
+# kind: Pod
+# apiVersion: v1
+# metadata:
+#   name: environment
+# spec:
+#   containers:
+#   - name: nginx
+#     image: nginx
+#     env:
+#     - name: course
+#       value: Docker
+#     - name: trainer
+#       value: NNR
+
 kind: Pod
 apiVersion: v1
 metadata:
@@ -7,9 +21,11 @@ spec:
   - name: nginx
     image: nginx
     env:
-    - name: course
-      value: Docker
-    - name: trainer
-      value: NNR
+      - name: course
+        value: Docker
+      - name: trainer
+        value: NNR    
+
+
 
 

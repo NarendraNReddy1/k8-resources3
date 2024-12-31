@@ -1,12 +1,23 @@
+# kind: Pod
+# apiVersion: v1
+# metadata:
+#   name: pod-config
+# spec:
+#   containers:
+#   - name: nginx
+#     image: nginx
+#     envFrom:
+#     - configMapRef:
+#         name: narendra.shop
 kind: Pod
 apiVersion: v1
 metadata:
-  name: pod-config
+  name: pod-conig
 spec:
   containers:
   - name: nginx
     image: nginx
     envFrom:
     - configMapRef:
-        name: narendra.shop
+        name: narendra.shop  
         

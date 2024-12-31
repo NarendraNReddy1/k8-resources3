@@ -1,12 +1,24 @@
+# kind: Pod
+# apiVersion: v1
+# metadata:
+#   name: labels
+#   labels:
+#     course: k8
+#     trainer: NNR
+# spec:
+#   containers:
+#   - name: nginx 
+#     image: nginx
 kind: Pod
 apiVersion: v1
 metadata:
   name: labels
   labels:
-    course: k8
+    course: docker
     trainer: NNR
 spec:
   containers:
-  - name: nginx 
-    image: nginx
+  - name: nginx
+    image: nginx 
+        
         

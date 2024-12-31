@@ -15,7 +15,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: labels
+  name: annotations
   labels:
     course: docker
     trainer: NNR

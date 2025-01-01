@@ -1,12 +1,3 @@
-# kind: Pod
-# apiVersion: v1
-# metadata:
-#   name: nginx
-# spec:
-#   containers:
-#   - name: nginx 
-#     image: nginx 
-
 kind: Pod
 apiVersion: v1
 metadata:
@@ -14,5 +5,14 @@ metadata:
 spec:
   containers:
   - name: nginx 
-    image: nginx:stable-perl 
+    image: nginx 
+
+# kind: Pod
+# apiVersion: v1
+# metadata:
+#   name: nginx
+# spec:
+#   containers:
+#   - name: nginx 
+#     image: nginx:stable-perl 
       

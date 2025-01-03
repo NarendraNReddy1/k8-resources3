@@ -14,5 +14,5 @@ metadata:
 spec:
   containers:
   - name: nginx 
-    image: nginx:stable-otel
+    image: nginx
       

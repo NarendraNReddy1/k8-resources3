@@ -3,8 +3,9 @@ apiVersion: storage.k8s.io/v1
 metadata:
   name: efs-dynamic
 provisioner: efs.csi.aws.com
+reclaimPolicy: Retain
 parameters:
   provisioningMode: efs-ap
-  fileSystemId: fs-00b061f86ac793fa6  (Take the above created EFS)
+  fileSystemId: fs-00b061f86ac793fa6
   directoryPerms: "700"
   basePath: "/expense"

@@ -16,4 +16,4 @@ spec:
     effect: "NoSchedule"
   - key: "project"
     operator: "Exists"
-    effect: "NoSchedule" 
+    effect: "NoSchedule"  
